@@ -1,0 +1,463 @@
+body{
+	width:100%;
+}
+p{
+	font-family: 'Roboto Slab', serif;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	padding: 0;
+	margin: 0;
+}
+
+/* Header Section */
+#header{
+	background-color: #000000;
+	opacity: 0.8;
+	display: flex;
+	width: 100%;
+	padding: 3px 80px;
+	color: #dcdcdc;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+#logo{
+	float: left;
+	width: 80%;
+	padding: 5px;
+}
+#logo>img{
+	width: 220px;
+}
+#headerContact{
+	float: right;
+	text-align: right;
+	padding: 10px;
+	width: 20%;
+}
+/* code hero carousel for smalll screens styling */
+#codeheroCarousel{
+	display: none;
+	color: #dcdcdc;
+	text-align: center;
+	height: 500px;
+}
+.corouselContent{
+	padding: 40px 60px;
+
+}
+.carouselControl{
+	bottom: 50%;
+}
+
+#carouselCodeheroHead{
+	padding: 10px;
+	margin: 10px auto;
+	border-bottom: #38bcdb 4px solid;
+}
+.carouselCodingSlide{
+	background-image: url("../images/mobile/code_mobile_hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.carouselDataSlide{
+	background-image: url("../images/mobile/data_mobile_hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#programInfoCarousel{
+	text-align: center;	
+	color: #000;
+	padding: 30px;
+}
+
+
+/* Code Hero Section */
+#codeheroInfo{
+	position: relative;
+	width: 100%;
+	height: 580px;
+}
+#codeheroHead{
+	position: absolute;
+	width: 28%;
+	top: 70px;
+	left: 70px;
+	padding: 20px;
+}
+#coding{
+	text-align: right;
+	position: absolute;
+	padding: 10px;
+	width: 30%;
+	top: 75px;
+	right: 100px;
+	border-bottom: 4px solid #38bcdb;
+}
+
+#programInfo{
+	position: absolute;
+	width: 30%;
+	bottom: 95px;
+	left: 70px;
+
+}
+#dataAnalytics{
+	text-align: right;
+	position: absolute;
+	width: 30%;
+	bottom: 105px;
+	right : 100px;
+	padding: 10px;
+	border-bottom: 4px solid #fff;
+} 
+
+#codeheroInfo{
+	background-image: url("../images/code_hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	display: block;
+}
+#codeheroHead>h1{
+	padding: 0;
+	margin: 0;
+	
+}
+#codeheroHead>p{
+	font-size: 22px;
+	color: #dcdcdc;
+}
+/* Program Info section */
+#programInfo{
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	width: 35%;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+#programInfo>h3{
+	font-family: 'Roboto-slab', sans-serif;
+	font-size:24px;
+	font-weight: 800;
+}
+#programInfo>p{
+	font-size:12px;
+}
+#inputDiv{
+	padding: 0;
+	margin: 10px;
+}
+#txtInput{
+	text-align: center;
+	border: 0;
+	border-bottom: 1px solid gray;
+	max-width: 47%;
+	padding: 10px;
+	margin: 10px 0;
+}
+#continue{
+	width: 85%;
+	background-color: #38bcdb;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-size:22px;
+	font-weight: bolder;
+}
+.rightArrow{
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding:3px 6px;
+	font-size: 11px;
+	vertical-align: middle;	
+}
+#continue:hover{
+	background-color: #2e91a3;
+}
+#coding>h4{
+	color: #38bcdb;
+}
+
+/* The featuring section */
+#featuring{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	padding: 30px 60px;
+	background-image: url("../images/featuring.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#featuring>div>div>h2{
+	text-decoration: underline;
+	font-weight: bolder;
+	padding: 10px;
+	letter-spacing: 1.5px;
+}
+#mobile>img{
+	width: 280px;
+}
+.featuringIcon{
+	width: 100px;
+}
+#mobile,#studyComplete,#learnBenefit{
+	padding: 20px;
+}
+.featuringComps{
+	height: 240px;
+	padding: 10px;
+}
+
+/* Story section */
+#story{
+	font-size: 18px;
+	background-image: url("../images/about.jpg");
+	padding: 80px;
+	text-align: center;
+	color: #dcdcdc;
+	line-height: 2em;
+	letter-spacing: 1.5px;
+}
+#story>h3{
+	font-family: 'Roboto', sans-serif;
+	color: #38bcdb;
+	padding: 20px;
+	margin: 20px;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+/* FAQ section */
+#faq{
+	background-image: url("../images/faq.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: left;
+	padding: 40px 70px;
+
+}
+#faq>container{
+	display: flex;
+}
+#faq>h3{
+	font-family: 'Roboto-slab', sans-serif;
+	text-decoration: underline;
+	font-weight: 700;
+	width: 100%;
+}
+.faqBullet{
+	padding:3px 5px;
+	border: 1px solid #38bcdb;
+	border-radius: 60%;
+	background-color: #38bcdb;
+}
+.answer{
+	margin-bottom: 2px;
+	white-space: normal;
+	display: table;
+}
+li{
+	list-style-position: outside; 
+	margin-left: 1em;
+}
+.collapseBtn{
+	text-align: left;
+	color: #000;
+	white-space: normal;
+}
+.collapseBtn:hover{
+	color: #000;
+}
+
+
+/* footer */
+
+#footer{
+	text-align: center;
+	font-size: 14px;
+	background-color: #68dce6;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 15px 70px;
+	
+}
+#footer>p>a{
+	color: #000;
+}
+#Footer>img{
+	width: 300px;
+	float: left;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+/*************************MEDIA QUERIES*************************/
+
+/* for screens less than 480px */
+@media screen and (max-width: 600px){
+	/* styling for faq section */
+	#faq{
+		min-height: 100%;
+		background-image: url("../images/mobile/fap_mobile.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-bottom: 65%;
+
+	}
+	#faq>h3{
+		text-align: center;
+	}
+	#story{
+		background-image: url("../images/mobile/about_mobile.jpg")
+	}
+}
+@media screen and (max-width: 680px ) {
+	/* header */
+	/* Standard syntax for header */
+	#header{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		padding: 2px 5px;
+	}
+
+	#headerContact{
+		width: 100%;
+		order: 1;
+		float: none;
+		text-align: center;
+		padding: 5px;
+	}
+	#headerContact>p{
+		margin: 0;
+		font-size: 12px;
+	}
+
+	#logo{
+		order: 2;
+		width: 100%;
+	}
+	#logo>img{
+		width: 200px;
+	}
+
+	/* Codehero Section */
+	
+	#codeheroInfo{
+		display: none;
+	}
+	#codeheroCarousel{
+		display: block;
+		height: 100%;
+	}
+
+	/* syntax for featuring section */
+	#featuring{
+		background-image: url("../images/mobile/featuring_mobile.jpg");
+	}
+	#mobile {order: 1;}
+	#mobile>img{
+		width: 200px;
+	}
+	#learnBenefit {order: 2;}
+	#studyComplete {order: 3;}
+	#condition {
+		order: 5;
+		margin: 5px;
+		font-size: 12px;
+	}
+	.featuringIcon{
+		width: 80px;
+	}
+	.featuringComps{
+		height: auto;
+	}
+
+	/* Footer */
+	#footer{
+		flex-direction: column;
+		vertical-align: middle;
+		padding: 15px 20px;
+	}
+	#footer>img{
+		align-self: center;
+		width: 70%;
+		float: none;
+	}
+
+}
+@media only screen and (min-width: 681px) and (max-width: 780px){
+	#logo{
+		padding:20px;
+		margin-top: 30px;
+	}	
+	#headerContact{
+		padding: 20px;
+		width: 30%;
+		
+	}
+
+	#codeheroHead>h1{
+		font-size:28px;
+	}
+
+	/* syntax for featuring section */
+
+	#mobile {order: 1;}
+	#mobile>img{
+		width: 250px;
+		padding: 30px;
+	}
+	#learnBenefit {order: 2;}
+	#studyComplete {order: 3;}
+	#condition {
+		order: 5;
+		margin: 5px;
+		font-size: 12px;
+	}
+	.featuringIcon{
+		width: 80px;
+	}
+	.featuringComps{
+		height: auto;
+	}
+
+	#footer>img{
+		width: 260px;
+	}
+
+}
+@media only screen and (min-width: 781px) and (max-width: 1000px){
+	/* syntax for featuring section */	
+	#logo{
+		padding:20px;
+		margin-top: 30px;
+	}	
+	#codeheroHead>h1{
+		font-size:28px;
+	}
+	#condition{
+		padding: 20px;
+	}
+	.featuringComps{
+		min-height: 280px;
+	}
+
+}
